@@ -12,7 +12,7 @@ class Plant:
 
     def propagate(self, number_of_weeks):
         if (number_of_weeks > 3):
-            print(number_of_weeks)
+            print("hurry up and propagate.  this plant is now " + str(number_of_weeks) + " weeks")
         elif (number_of_weeks == 3):
             print("now is the best time to propagate")    
         else:
@@ -28,7 +28,7 @@ cactus = Plant(0, True,20)
 
 rose.wither(5)
 rose.grow(15)
-cactus.propagate(3)
+cactus.propagate(5)
 
 
 
